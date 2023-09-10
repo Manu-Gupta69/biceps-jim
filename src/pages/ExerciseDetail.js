@@ -1,3 +1,5 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable quotes */
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Box } from "@mui/material";
@@ -19,6 +21,7 @@ const ExerciseDetail = () => {
 
     const fetchExercisesData = async () => {
       const exerciseDbUrl = "https://exercisedb.p.rapidapi.com";
+      // eslint-disable-next-line operator-linebreak
       const youtubeSearchUrl =
         "https://youtube-search-and-download.p.rapidapi.com";
 
